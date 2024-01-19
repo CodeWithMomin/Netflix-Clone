@@ -1,0 +1,471 @@
+<html>
+<head>
+<title> Netflix clone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+<style>
+body{
+overflow-x:hidden;
+}
+*{
+margin:0px;
+padding:0px;
+
+}
+.window{
+width:100%
+height:auto;
+}
+body{
+background-color: black;
+}
+.maincontainer{
+	background-image: url("https://wallpaperbat.com/img/343546-netflix-kingdom-wallpaper-hd-tv-series-4k-wallpaper-image.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+width:100%;
+height:700px;
+}
+.netflixheading{
+font-size:50px;
+font-weight: bold;
+color:red;
+margin:15px;
+margin-left: 150px;
+margin-right: 600px;
+float:left;
+}
+#container{
+  display: flex;
+  
+  
+}
+.languages{
+  margin-right: 20px;
+}
+#Languages{
+width:250px;
+height:40px;
+margin-top: 20px;
+border:1px solid grey;
+background-color:black;
+color:white;
+border-radius:5px;
+padding:10px;
+}
+#signoutbtn{
+background-color:red;
+color:white;
+width:100px;
+height:40px;
+margin-top: 20px;
+border: none;
+border-radius: 5px;
+font-weight: bold;
+}
+#content{
+ margin-top: 200px;
+ text-align: center;
+}
+#line1{
+color:white;
+font-size:25px;
+margin-bottom: 0px;
+font-family: sans-serif;
+}
+.line1{
+	
+color:white;
+font-size:25px;
+margin-bottom: 20px;
+font-family: sans-serif;
+}
+
+
+#line2{
+	font-weight: bold;
+	font-size: 55px;
+	color: white;
+	margin-top: 0px;
+	margin-bottom:15px;
+
+}
+.line2{
+	
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	margin-top: 0px;
+	margin-bottom:25px;
+
+}
+#line3{
+	color:white;
+font-size:25px;
+margin-top: 0px;
+font-family: sans-serif;
+}
+.restart{
+	display: flex;
+	justify-content: center;
+}
+.restartbtn{
+	width: 363.3px;
+	height: 53px;
+	border-radius: 10px;
+	border:none;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom: 100px;
+}
+.restartbtn2{
+	width: 363.3px;
+	height: 53px;
+	border-radius: 10px;
+	border:none;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+#second{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 400px;
+	margin-left: 0px;
+	margin-top:100px;
+	padding-top: 100px;
+	
+	border-bottom: 10px solid rgba(235, 223, 223, 0.034);
+}
+.third{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 400px;
+	margin-left: 0px;
+	margin-top:10px;
+	padding-top: 100px;
+	
+	border-bottom: 10px solid rgba(235, 223, 223, 0.034);
+	
+
+}
+#img{
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px rgb(58, 57, 57);
+}
+.line5{
+color: white;
+font-size: 50px;
+margin-bottom: 5px;
+}
+.line6{
+	color: white;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.fourth{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 400px;
+	margin-left: 0px;
+	margin-top:10px;
+	padding-top: 100px;
+	
+
+	border-bottom: 10px solid rgba(235, 223, 223, 0.034);
+
+}
+.fifth{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 400px;
+	margin-left: 0px;
+	margin-top:10px;
+	padding-top: 100px;
+	
+
+	border-bottom: 10px solid rgba(235, 223, 223, 0.034);
+
+}
+.line7{
+	color: white;
+font-size: 50px;
+margin-bottom: 5px;
+}
+.line8{
+	color: white;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.line9{
+	color: white;
+font-size: 50px;
+margin-bottom: 5px;
+}
+.line10{
+	color: white;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.footer{
+	
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 250px;
+	margin-left: 0px;
+	margin-top:10px;
+	padding-top: 50px;
+	padding-left: 50px;
+	
+	
+	border-bottom: 10px solid rgba(235, 223, 223, 0.034);
+}
+.sixth{
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.884);
+	width:100%;
+	height: 200px;
+	
+	margin-top:10px;
+	
+	
+	border-top: 5px solid rgba(59, 57, 57, 0.034);
+}
+.line11{
+	color: white;
+	
+}
+a {
+	color: white;
+	margin :20px;
+	font-size: 18px;
+}
+  li {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+.footercont{
+	display: flex;
+	justify-content: center;
+	
+}
+.footercont>div{
+	margin-left:70px;
+}
+
+</style>
+</head>
+<body>
+	      
+          <div class="maincontainer">
+		<div id="container">
+			<div class="netflixheading">
+		 NETFLIX
+		  </div>
+	 
+			<div class="languages">
+	 <select name="Languages" id="Languages">
+	   <option value="English">English</option>
+	   <option value="Espanol">Español</option>
+	   <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	  <option value="Portuges">Português</option>
+	   <option value="audi">Audi</option>
+	 </select>
+			</div>
+	 
+			 
+
+ 				<div>
+		 <button id="signoutbtn"> Sign Out</button>
+			 </div>
+		 
+	 			</div>
+
+			 <div id="content">
+		 <h4 id="line1"> Welcome back, momin!</h4>
+		 <p id="line2">Unlimited movies, TV shows and more</p>
+		 <p id="line3">Watch anywhere . Cancal anytime</p>
+	 
+	 				</div>
+
+
+
+
+
+
+
+	 			<div class="restart">
+		 <button class="restartbtn">Restart Your Membership  > </button>
+					 </div>
+	 
+					</div>
+  
+				<div id="second">
+		 			<div>
+			<p class="line1" style="font-size: 30px;">Enjoy  on Your TV</p>
+			<p class="line2">
+				Watch on smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, Blu-ray players and <br> more.
+			</p>
+					 </div>
+					 <div>
+			<img id="img" src="https://images.pexels.com/photos/4406692/pexels-photo-4406692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="250px" height="250px"  alt="">
+					 </div>
+		 
+
+					</div>
+
+
+
+
+
+
+
+				<div class="third">
+			<div style="padding: 30px;">
+		<img id="img-third" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" width="300px" height="300px" 
+		alt="">
+				</div>
+				<div>
+		<p class="line5">Download your shows <br> to watch offline</p>
+		<p class="line6">
+			
+		Save your favourites easily and always have <br> something to watch.
+		</p>
+					</div>
+	
+					</div>
+
+
+
+
+
+				<div class="fourth">
+					<div>
+		<p class="line7">Watch everywhere</p>
+		<p class="line8">Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.</p>
+					</div>
+					<div>
+		<img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" width="350px" height="300px" alt="">
+					</div>
+					</div>
+
+
+
+
+
+
+
+
+ 					 <div class="fifth">
+						<div>
+		
+		<img src="https://occ-0-4345-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" width="450px" height="300px" alt="">
+	</div>
+	<div>
+		<p class="line9">Create profiles for <br> kids</p>
+		<p class="line10">Send children on adventures with their <br> favourite characters in a space made just for <br> them—free with your membership.</p>
+						</div>
+  						</div>
+  				
+
+
+					<div class="sixth">
+	<button class="restartbtn2">Restart Your Membership  > </button>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="footer">
+<p class="line11">Questions? Call 000-800-919-1694</p>
+ 
+		<div class="footercont">
+				<div >
+				<ul>
+			
+			<li><a href="">FAQ</a></li>
+			<li><a href="">Investor Relations</a></li>
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Speed Test</a></li>
+				</ul>
+				
+		
+		
+		
+	
+				</div>
+
+
+
+				<div><ul>
+		<li><a href="">Help Centre</a></li>
+		<li><a href="">Jobs</a></li>
+		<li><a href="">
+			Cookie Preferences</a></li>
+		<li><a href="">Legal Notices</a></li>
+	</ul>
+	
+				</div>
+	 
+
+  				<div><ul>
+			<li><a href="">Account</a></li>
+			<li><a href="">Way to Watch</a></li>
+			<li><a href="">
+				Corporate Information</a></li>
+			<li><a href="">Only on Netflix</a></li>
+		</ul>
+		
+		</div>
+		<div><ul>
+			<li><a href="">Media Center</a></li>
+			<li><a href="">Term of Use</a></li>
+			
+			<li><a href="">Contact Us</a></li>
+		</ul>
+		
+	                 	</div>
+	
+					</div>
+
+					</div>
+				
+
+	
+
+<body>
+
+
+</html>
